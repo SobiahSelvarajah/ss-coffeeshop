@@ -1,0 +1,13 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.coffeeImg {
+    &__image {
+        width: 40vw;
+        @include tablet {
+            width: 20vw;
+        }
+    }
+}
