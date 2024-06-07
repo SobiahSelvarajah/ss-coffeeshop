@@ -1,7 +1,5 @@
 import React from 'react'
-import { SlSocialInstagram } from "react-icons/sl"
-import { TiSocialFacebookCircular } from "react-icons/ti";
-import { SlSocialTwitter } from "react-icons/sl";
+import Socials from '../socials/Socials';
 import { FaCoffee } from 'react-icons/fa'
 import { FaPhone } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
@@ -20,23 +18,7 @@ const Footer = () => {
                 <br/>
                 website built with Javascript.
             </h5>
-            <div className="footer__socials">
-                <a 
-                    href="https://www.instagram.com/" 
-                    className="footer__instagram">
-                        <SlSocialInstagram size={22}/>
-                </a>
-                <a 
-                    href="https://www.facebook.com/" 
-                    className="footer__facebook">
-                        <TiSocialFacebookCircular size={22}/>
-                </a>
-                <a 
-                    href="https://www.twitter.com" 
-                    className="footer__twitter">
-                        <SlSocialTwitter size={22}/>
-                </a>
-            </div>
+            <Socials/>
         </section>
         <section className="footer__contact">
             <h3 className="footer__contactHeading">
