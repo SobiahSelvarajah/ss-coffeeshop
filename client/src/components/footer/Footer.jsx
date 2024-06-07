@@ -1,4 +1,7 @@
 import React from 'react'
+import { SlSocialInstagram } from "react-icons/sl"
+import { TiSocialFacebookCircular } from "react-icons/ti";
+import { SlSocialTwitter } from "react-icons/sl";
 import { FaCoffee } from 'react-icons/fa'
 import { FaPhone } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
@@ -12,6 +15,28 @@ const Footer = () => {
             <h3 className="footer__logo">
                 My Little Valentine
             </h3>
+            <h5 className="footerDesc__desc">
+                Template easy to use coffeeshop
+                <br/>
+                website built with Javascript.
+            </h5>
+            <div className="footer__socials">
+                <a 
+                    href="https://www.instagram.com/" 
+                    className="footer__instagram">
+                        <SlSocialInstagram size={22}/>
+                </a>
+                <a 
+                    href="https://www.facebook.com/" 
+                    className="footer__facebook">
+                        <TiSocialFacebookCircular size={22}/>
+                </a>
+                <a 
+                    href="https://www.twitter.com" 
+                    className="footer__twitter">
+                        <SlSocialTwitter size={22}/>
+                </a>
+            </div>
         </section>
         <section className="footer__contact">
             <h3 className="footer__contactHeading">
@@ -35,24 +60,24 @@ const Footer = () => {
                     mlv@example.co.uk
                 </h5>
             </div>
-            <div className="footerAddress__container">
+            <div className="footer__address">
                 <FaLocationDot/>
-                <h5 className="footerAddress__text">
+                <h5 className="footer__addressText">
                     11 Lovers Lane, City, Country
                 </h5>
             </div>
         </section>
-        <section className="footerOpening__container">
-            <h3 className="footerOpening__heading">
+        <section className="footer__opening">
+            <h3 className="footer__openingHeading">
                 Opening Times
             </h3>
-            <h5 className="footerOpening__times">
+            <h5 className="footer__openingTimes">
                 Mon-Fri: 8AM - 8PM
             </h5>
-            <h5 className="footerOpening__times">
+            <h5 className="footer__openingTimes">
                 Sat: 8AM - 4PM
             </h5>
-            <h5 className="footerOpening__times">
+            <h5 className="footer__openingTimes">
                 Sun: Closed
             </h5>
         </section>

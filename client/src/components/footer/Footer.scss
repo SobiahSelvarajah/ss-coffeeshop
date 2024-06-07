@@ -1,0 +1,48 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.footer {
+    &__container {
+        background-color: $cetacean_blue;
+        color: $tan;
+        padding: 2rem 4rem 4rem;
+        display: flex;
+        flex-direction: column;
+        @include tablet {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    &__socials {
+        padding-top: .5rem;
+        @include tablet {
+            padding-top: 1rem;
+        }
+    }
+    &__instagram,
+    &__facebook,
+    &__twitter {
+        color: $tan;
+        padding-right: 1rem;
+    }
+    &__intro,
+    &__contact,
+    &__opening {
+        padding-right: 2rem;
+    }
+    &__name,
+    &__phone,
+    &__email,
+    &__address {
+        display: flex;
+        flex-direction: row;
+    }
+    &__nameText,
+    &__phoneNumber,
+    &__emailText,
+    &__addressText {
+        padding-left: .5rem;
+    }
+}
