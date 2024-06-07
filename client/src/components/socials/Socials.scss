@@ -1,0 +1,19 @@
+@use '../../partials/breakpoints' as *;
+@use '../../partials/textstyles' as *;
+@use '../../partials/typeface' as *;
+@use '../../partials/colors' as *;
+
+.socials {
+    &__container {
+        padding-top: .5rem;
+        @include tablet {
+            padding-top: 1rem;
+        }
+    }
+    &__instagram,
+    &__facebook,
+    &__twitter {
+        color: $tan;
+        padding-right: 1rem;
+    }
+}

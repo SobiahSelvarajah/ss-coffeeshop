@@ -2,6 +2,7 @@ import React from 'react'
 import { SlSocialInstagram } from "react-icons/sl"
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import { SlSocialTwitter } from "react-icons/sl";
+import './Socials.scss'
 
 const Socials = () => {
   return (
