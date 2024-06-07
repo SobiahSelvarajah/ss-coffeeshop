@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterDesc from '../footerDesc/FooterDesc';
 import Socials from '../socials/Socials';
 import { FaCoffee } from 'react-icons/fa'
 import { FaPhone } from 'react-icons/fa'
@@ -13,11 +14,7 @@ const Footer = () => {
             <h3 className="footer__logo">
                 My Little Valentine
             </h3>
-            <h5 className="footerDesc__desc">
-                Template easy to use coffeeshop
-                <br/>
-                website built with Javascript.
-            </h5>
+            <FooterDesc/>
             <Socials/>
         </section>
         <section className="footer__contact">
