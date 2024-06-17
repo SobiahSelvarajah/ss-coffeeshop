@@ -16,21 +16,7 @@
         }
     }
     &__intro,
-    &__contact,
     &__opening {
         padding-right: 2rem;
-    }
-    &__name,
-    &__phone,
-    &__email,
-    &__address {
-        display: flex;
-        flex-direction: row;
-    }
-    &__nameText,
-    &__phoneNumber,
-    &__emailText,
-    &__addressText {
-        padding-left: .5rem;
     }
 }
