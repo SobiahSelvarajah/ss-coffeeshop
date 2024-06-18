@@ -1,4 +1,5 @@
 import React from 'react'
+import './FooterOpening.scss'
 
 const FooterOpening = () => {
   return (
